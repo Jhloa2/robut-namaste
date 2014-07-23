@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jhloa2@gmail.com"]
   spec.summary       = %q{Robut namaste plugin}
   spec.description   = %q{Responds with randome stayoutofmynamastespace quotes}
-  spec.homepage      = "github.com/jhloa2/robut-namaste"
+  spec.homepage      = "http://github.com/jhloa2/robut-namaste"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
