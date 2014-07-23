@@ -23,7 +23,7 @@ def get_namaste
 	res = quote + " - " + citation
 
 	# Tries again to get new quote if previous attempts returned invalid responses. 
-	if res.empty? || res.nil? || res.to_s.length > 350 || res == " - "
+	if quote.empty? || quote.nil? || res.to_s.length > 300  || citation.empty? || citation.nil?
 		res = get_namaste()
 	else
 		return res
