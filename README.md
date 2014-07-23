@@ -1,20 +1,14 @@
 ## Installation
 
+Install gem
+	gem install 'robut-namaste'
+
 Add these lines to your Chat
 
 	require 'namaste'
 
 	Robut::Plugin.plugins << Robut::Plugin::Namaste
 
-
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install robut-namaste
 
 ## Usage
 
