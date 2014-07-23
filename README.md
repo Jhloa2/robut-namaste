@@ -1,8 +1,12 @@
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these lines to your Chat
 
-    gem 'robut-namaste'
+	require 'namaste'
+
+	Robut::Plugin.plugins << Robut::Plugin::Namaste
+
+
 
 And then execute:
 
