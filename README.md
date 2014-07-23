@@ -1,6 +1,7 @@
 ## Installation
 
 Install gem
+	
 	gem install 'robut-namaste'
 
 Add these lines to your Chat
